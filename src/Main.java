@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
         int score = 100;
         int replenishment = 300;
-        if (replenishment >= 1000){
-            int bonus = replenishment/100;
+        if (replenishment >= 1000) {
+            int bonus = replenishment / 100;
             score += bonus + replenishment;
-           System.out.println("Бонус равен: "+ bonus);
-           System.out.println("На счету: " + score + " рублей.");
+            System.out.println("Бонус равен: " + bonus);
+            System.out.println("На счету: " + score + " рублей.");
         } else {
             score += replenishment;
             System.out.println("На счету: " + score + " рублей.");
